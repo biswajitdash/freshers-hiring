@@ -1,0 +1,306 @@
+
+
+<div class ="hiring-image">
+                <!-- <div class="sk-ind-section l2p"> -->
+                  <div class="sk-industry clearfix" style="width: 1473px;"> 
+                    <div class="sk-ind-content">
+                      <h1>Sasken Smart Hiring Platform</h1>
+                        <!-- <p>   
+                          <span>
+                                Unleashing creativity by designing next gen connected devices
+                          </span>
+                        </p> -->
+                      </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+
+
+<div class="sk-desc-level2" id="sksection1">
+    <div class="sk-desc-lvl2container">
+      <div class="sk-smrtdev-inner ">
+        <div class="sk-smrtdev-row clearfix">
+            <div class="sk-smrtdev-one sec0 clearfix">              
+                <div class="sk-smrtdev-rytdes">
+                    <img src="https://www.sasken.com/sites/default/files/images/l2-icons/career67.png" class="img-responsive">            				
+                        <h1>Smart Hiring Portal</h1>
+                                  <p>Sasken with its unparalleled domain competencies in product engineering and Digital transformation is helping global giants to create the next generation connected devices for auto and consumer electronics, retail and healthcare for near real time decision making invites interested freshers to Sasken.</p>
+                        <h3>Benefit</h3>
+                        <ul>
+                        <li class="fa">Tremendous learning opportunity working with the best minds</li>
+                        <li class="fa">Engineering experience and research opportunities</li>
+                        <li class="fa">Opportunity to interact with technology and business leaders and Sasken customers</li>
+                        </ul>
+                        <div id=""></div>
+               </div>            
+           </div>
+           <div class="sk-smrtdev-one sec1 clearfix">
+                <div class="sk-smrtdev-rytdes">
+                      <p>
+                        <strong>Who can apply?</strong><br>
+                        Graduate students (BE or B.Tech)  or Post Graduate students (Masters or PhD) in the area of Electronics and 
+                        Communications or Computer Science, are welcome to apply. Selection will be based on academic performance and a mail will be sent to all who apply.                         
+                      </p>
+                      <p>
+                        <strong>Work at Sasken</strong><br>
+                        Once you are selected you will get to work with technology leaders at Sasken on different business lines as well as on cutting edge technologies, such as,  Android applications and devices, Linux drivers, 4G/5G Wireless communication layers, IoT, Block chain, Big Data Analytics, Signal/Image Processing and Computer vision.
+                        </p>
+                      <div id=""></div>
+                  </div>
+                  </div>
+              </div>
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+  </div>
+
+<div class="sk-desc-level2 ">
+  <p class="hs-hubspot-form-para">Please fill in your name and other details in the boxes given below:</p>
+  <div class="hbspt-form">
+      <form [formGroup]="fresherForm" (ngSubmit) = "onSubmit()" novalidate>
+         <fieldset class="form-columns-2">
+            <div class="form-group hs-form-field">
+              <div class="input">
+                  <input type= "text" formControlName="name" placeholder="Name*" class=""/>
+                  <div *ngIf="fresherForm.controls['name'].invalid && (fresherForm.controls['name'].dirty || fresherForm.controls['name'].touched || submitted)" >
+                      <div *ngIf="fresherForm.controls['name'].errors.required">
+                           <label>Name is required.</label>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group hs-form-field">
+                <div class="input">
+                  <input type="text" formControlName="surname" placeholder="Last Name*" class=""/>
+                  <div *ngIf="fresherForm.controls['surname'].invalid && (fresherForm.controls['surname'].dirty || fresherForm.controls['surname'].touched || submitted)" >
+                      <div *ngIf="fresherForm.controls['surname'].errors.required">
+                           <label>Last Name is required.</label>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </fieldset>
+            <fieldset class="form-columns-2">
+                <div class="form-group hs-form-field">
+                  <div class="input">
+                      <input type="text" formControlName="email" placeholder="Email*" class=""/>
+                      <div *ngIf="fresherForm.controls['email'].invalid && (fresherForm.controls['email'].dirty || fresherForm.controls['email'].touched || submitted)" >
+                          <div *ngIf="fresherForm.controls['email'].errors.required">
+                               <label>Email is required.</label>
+                        </div>
+                        <div *ngIf="fresherForm.controls.email.errors.email"><label>Email must be a valid email address</label></div>
+                      </div>
+                  </div>
+                </div>
+                <div class="form-group hs-form-field">
+                    <div class="input">
+                        <input type="text" formControlName="dateOfBirth" onfocus="(this.type='date')" placeholder="Date of birth (mm/dd/yyyy)*" class=""/>
+                        <div *ngIf="fresherForm.controls['dateOfBirth'].invalid && (fresherForm.controls['dateOfBirth'].dirty || fresherForm.controls['dateOfBirth'].touched|| submitted)" >
+                            <div *ngIf="fresherForm.controls['dateOfBirth'].errors.required">
+                                 <label>Date of birth (mm/dd/yyyy) is required.</label>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="form-columns-2">
+                  <div class="form-group hs-form-field">
+                    <div class="input">
+                        <input type="text" formControlName="mobileNo" placeholder="Mobile No*"  class=""/>
+                        <div *ngIf="fresherForm.controls['mobileNo'].invalid && (fresherForm.controls['mobileNo'].dirty || fresherForm.controls['mobileNo'].touched || submitted)" >
+                            <div *ngIf="fresherForm.controls['mobileNo'].errors.required">
+                                 <label>Mobile No. is required.</label>
+                          </div>
+                          <div *ngIf="fresherForm.controls.mobileNo.errors.mobileNo"><label>Mobile no. must be a valid mobile no.</label></div>
+                        </div>
+                    </div>
+                  </div>
+            </fieldset>
+            
+
+      <div class="">
+            <p class="hs-hubspot-form-para">Education Details:</p>
+      </div>
+      <fieldset class="form-columns-2">
+          <div class="form-group hs-form-field">
+              <div class="large-column">
+                  <div class="input ">
+                    <select formControlName="highestQualification" class="" >
+                            <option disabled value>Select Highest Qualification*</option>
+                            <option *ngFor="let item of qualificationList" [ngValue]="item.examName">{{item.label}}</option>
+                    </select>
+                    <div *ngIf="fresherForm.controls['highestQualification'].invalid && (fresherForm.controls['highestQualification'].dirty || fresherForm.controls['highestQualification'].touched || submitted)" >
+                      <div *ngIf="fresherForm.controls['highestQualification'].errors.required">
+                           <label>Highest Qualification is required.</label>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </fieldset>
+          <div formArrayName="educationDetails">
+            
+                      <div class="input" *ngFor= "let item of educationDetails.controls; let examIndex = index" [formGroupName] = "examIndex">
+                          <fieldset class="form-columns-2">
+                              <div class="form-group hs-form-field">
+                                  <div class="large-column">
+                                        <div class="input">
+                                            <!-- <input type="text" formControlName="marks" placeholder={{item.value.labelMark}} (blur)="calculatePercents(examIndex, item.value.marks, item.value.gradeSystem)" class=""/>
+                                            -->
+                                            <input type="text" formControlName="marks" placeholder={{item.value.labelMark}} class=""/>
+                                            <input type="hidden" formControlName="marksPercentage" class=""/>
+                                            <div *ngIf="item.controls.marks.invalid && (item.controls.marks.dirty || item.controls.marks.touched || submitted)" >
+                                                 <div *ngIf="item.controls.marks.hasError('required')">
+                                                   <label>Percentage/CGPA is required.</label>
+                                                 </div>
+                                                 <div *ngIf="item.controls.marks.hasError('range')">
+                                                    <label>Must be in valid range </label>
+                                                  </div>
+                                          </div>
+                                          
+                                        </div>
+                                  </div>
+                                  <div class="small-column">
+                                        <div class="input">
+                                            <!-- <select  formControlName="gradeSystem" class="" (blur)="calculatePercents(examIndex, item.value.marks, item.value.gradeSystem)"> -->
+                                                    <!-- <option *ngFor="let item of gradeSystemList" [ngValue]="item.id">{{item.name}}</option> -->
+                                            <select  formControlName="gradeSystem" class="">        
+                                                    <option disabled value>Select</option>
+                                                    <option *ngFor="let item of gradeSystemList" [ngValue]="item.id">{{item.name}}</option>
+                                            </select>
+                                            <div *ngIf="item.controls.gradeSystem.invalid && (item.controls.gradeSystem.dirty || item.controls.gradeSystem.touched || submitted)" >
+                                                <div *ngIf="item.controls.gradeSystem.hasError('required')">
+                                                    <label>Please select percentage or cgpa</label>
+                                                  </div> 
+                                             
+
+                                         </div>
+                                            
+                                        </div>
+                                  </div>
+                              </div>
+                  
+                              <div class="form-group hs-form-field">
+                                  <div class="input">
+                                      <select formControlName="yearPassing" class="" >
+                                          <option disabled value>Year</option>
+                                          <option *ngFor="let year of years" [ngValue]="year">{{year}}</option>
+                                      </select>
+                                      <div *ngIf="item.controls.yearPassing.invalid && (item.controls.yearPassing.dirty || item.controls.yearPassing.touched || submitted)" >
+                                        <div *ngIf="item.controls.yearPassing.hasError('required')">
+                                            <label>Year is required</label>
+                                          </div> 
+                                      </div>
+                                  </div>
+                              </div>
+                            </fieldset>
+                      </div>
+          </div>
+
+         
+  
+       <div class="">
+          <p class="hs-hubspot-form-para">Competitive Exams:</p>
+       </div> 
+      <div formArrayName="competitives">
+            <div *ngFor= "let item of competitives.controls; let examIndex = index" [formGroupName] = "examIndex">  
+                <fieldset class="form-columns-2">
+                    <div class="form-group hs-form-field">
+                        <div class="medium-column">
+                            <div class="input" formGroupName = "competitiveExam">
+                                <select formControlName="competitiveExamId" class="" >
+                                    <option disabled value>Select</option>
+                                    <option *ngFor="let exam of competitiveExamList" [ngValue]="exam.competitiveExamId">{{exam.examName}}</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="medium-column">
+                            <div class="input">
+                                <input type="text" formControlName="marksScorePercentage" placeholder=" %" class=""/>          
+                            </div>
+                        </div>
+                  </div>
+                    <div class="hs-form-field">
+                        <div class="input" style="display: flex">
+                            <input type="text" formControlName="examRank" placeholder="Rank" class=""/>
+                            <select formControlName="yearAppeared" class="" style="margin-left: 8px;margin-right: 8px;">
+                                <option disabled value>Year</option>
+                                <option *ngFor="let yearIndex of years" [ngValue]="yearIndex">{{yearIndex}}</option>
+                            </select>
+                            <button class="btn-remove" type="button" (click)="deleteCompetitiveExam(examIndex)">Delete</button>
+                          </div>
+                    </div>
+                
+                  </fieldset>
+              </div> 
+        </div>
+  <fieldset class="form-columns-1" >
+      <div class="hs_message hs-message hs-fieldtype-textarea field hs-form-field" style="float: right; margin-right: 10px;">    
+          <button type="button" (click)="addCompetitiveExam()" class="btn-add">Add</button>
+      </div>
+  </fieldset>
+
+  <div class="">
+      <p class="hs-hubspot-form-para">Give your own account of the best engineering project done during your study in about 300 words in the box given below.</p>
+  </div>
+
+  <fieldset class="form-columns-1" >
+    <div class="hs_message hs-message hs-fieldtype-textarea field hs-form-field" >    
+      <div class="input">
+        <textarea  class="hs-input invalid error" formControlName="projectDescription" placeholder="Projects Undertaken*"></textarea>
+        <div *ngIf="fresherForm.controls['projectDescription'].invalid && (fresherForm.controls['projectDescription'].dirty || fresherForm.controls['projectDescription'].touched || submitted)" >
+          <div *ngIf="fresherForm.controls['projectDescription'].errors.required">
+               <label>Project details are required.</label>
+        </div>
+      </div>
+      </div>
+    </div>
+  </fieldset>
+  <fieldset class="form-columns-1">
+    <div class="hs-richtext hs-main-font-element">
+      <p><span>Note*: The resume should contain GATE and CET ranks/marks and JEE ranks if any.</span><br>
+         <span>Files must be less than&nbsp;</span><strong>2 MB</strong><span>.</span><br>
+         <span>Allowed file types:&nbsp;</span><strong>pdf</strong><span>.</span>
+      </p>
+    </div>
+    <div class="hs_file hs-file hs-fieldtype-file field hs-form-field">
+          <label class="" placeholder="Enter your Upload Resume" >
+            <span>Upload Resume*</span>
+            </label>
+            <div class="input">
+                <!-- <input  class="hs-input" type="file" required="" formControlName="resume" size="30" (change)="handleFileInput($event.target.files)"> -->
+                <!-- <input type="file" (change)="onFileChange($event)" /> -->
+
+                <input type="file" (change)="selectFile($event)">
+                <input type="hidden" formControlName="resume">
+                  <div *ngIf="fresherForm.controls['resume'].invalid && (fresherForm.controls['resume'].dirty || fresherForm.controls['resume'].touched || submitted)" >
+                    <div *ngIf="fresherForm.controls['resume'].errors.required">
+                        <label>Please upload your resume</label>
+                  </div>
+                </div>
+              </div>
+    </div>
+  </fieldset>
+  <fieldset class="form-group form-columns-1">
+      <div class="legal-consent-container">
+        <div class="input">
+           <span><input type="checkbox" formControlName="legalConsent" value="true" /></span>
+                <p class="legal-consent">By submitting this form, you agree that we may use the data you provide to contact you with information related 
+                to your request/submission and relevant Sasken Services. To learn more, see 
+                <a href="https://www.sasken.com/privacy-policy" rel="noopener" target="_blank">Sasken's Privacy Policy</a>.</p>
+        </div>
+      </div>
+  </fieldset>
+
+  <div class="form-group hs_submit hs-submit">
+    <div class="actions">
+        <button class="hs-button primary large">Submit</button>
+    </div>
+  </div>
+
+</form>
+   <!-- {{ this.fresherForm.value | json }}  -->
+</div>
+</div>
+
+

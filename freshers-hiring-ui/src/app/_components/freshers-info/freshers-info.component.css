@@ -1,0 +1,417 @@
+body {
+    font-size: 14px;
+    line-height: -13.571429;
+    /* color: #333; */
+    background-color: #fff;
+}
+
+body {
+    margin: 0px;
+}
+body {
+    background: #f3f3f3;
+    font-family: 'Poppins' !important;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hiring-image{
+    background-image:url('https://www.sasken.com/sites/default/files/images/l2-banner/L2_ban_default.jpg');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: right top;
+    background-color: #fff !important;
+    box-sizing: border-box;
+    height: 429px;
+    /* position: relative; */
+    position: inherit;
+    width: 100%;
+    
+}
+/* Image text */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+/* .sk-level2-container {
+    background-color: #fff !important;
+}
+.sk-level2-container {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: right top;
+    background: #303f52;
+    box-sizing: border-box;
+    height: 429px;
+    position: relative;
+    width: 100%;
+} */
+.sk-ind-section {
+    display: table;
+    position: relative;
+    z-index: 1;
+}
+.sk-industry {
+    display: table-cell;
+    height: 429px !important;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+}
+.sk-ind-content, .sk-level2-container .sk-ind-content {
+    border-left: 2px solid #f04835;
+    float: none;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+.sk-ind-content {
+    float: left;
+    max-width: 100%;
+    padding: 0 0 0 20px;
+}
+.sk-ind-content p span {
+    -webkit-box-decoration-break: clone;
+    -ms-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: #f04835;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+}
+.sk-ind-content h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-left: -2px;
+}
+/* end Image text */
+
+.sk-desc-level2 {
+    background: transparent;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+.sk-desc-level2 {
+    padding: 0 40px !important;
+}
+.hs-hubspot-form-para {
+    font-size: 22px !important;
+    color: #363636;
+    font-weight: 500 !important;
+}
+
+
+.hbspt-form input {
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 14px;
+    color: #505050;
+    font-weight: 300;
+    font-family: inherit;
+    outline: none;
+    padding: 14px 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.hbspt-form fieldset {
+    max-width: 100% !important;
+    border: 0;
+}
+fieldset.form-columns-2 .hs-form-field {
+    width: 50%;
+    float: left;
+}
+fieldset.form-columns-2 .input{
+    margin-right: 8px;
+}
+.large-column{
+    width: 60%;
+    float: left;
+}
+.medium-column{
+    width: 50%;
+    float: left;
+}
+.small-column{
+    width: 40%;
+    float: left;
+}
+
+/* .hs-form-e96945dc-0b1f-49da-854d-57b44c4e972f_6f32bcd2-fbd6-47d8-9929-e5c8627d2605 fieldset.form-columns-2 .input {
+    margin-right: 8px;
+} */
+fieldset {
+    min-width: 0;
+    padding: 0 0 20px;
+    margin: 0;
+    border: 0;
+}
+
+
+
+.hs-richtext {
+    word-break: break-word;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.form-columns-1 .input {
+    margin-right: 8px;
+}
+fieldset.form-columns-1 .hs-input {
+    width: 95%;
+}
+.hs_file input {
+    border: none;
+    padding: 10px 0;
+}
+.hbspt-form input {
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 14px;
+    color: #505050;
+    font-weight: 300;
+    font-family: inherit;
+    outline: none;
+    padding: 14px 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.hbspt-form textarea {
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 12px;
+    color: #505050;
+    font-weight: 300;
+    font-family: roboto;
+    padding: 15px 8px 15px 15px;
+    outline: none;
+    resize: none;
+    font-family: inherit;
+    width: 98% !important;
+    height: 90px;
+}
+
+fieldset.form-columns-1 .hs-input {
+    width: 95%;
+}
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+textarea {
+    overflow: auto;
+}
+.hs-submit .actions button {
+    padding: 7px 22px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    background: #f04835;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    width: inherit;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+fieldset.form-columns-1 input[type="checkbox"]{
+    width: auto;
+}
+
+fieldset.form-columns-1 .hs-input {
+    width: 95%;
+}
+
+.legal-consent-container input {
+    float: left;
+}
+.legal-consent-container span {
+    display: block;
+    margin-left: 20px;
+}
+.legal-consent {
+   font: bold 
+}
+fieldset.form-columns-4 .hs-form-field {
+    width: 25%;
+    float: left;
+}
+fieldset.form-columns-4 .input{
+    margin-right: 8px;
+}
+
+
+/* CSS for area below image */
+.sk-desc-level2 {
+    padding: 0 40px;
+}
+
+.sk-desc-level2 {
+    background: transparent;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+.sk-desc-lvl2container {
+    margin: 0 auto;
+    padding: 38px 0 40px 0;
+}
+.sk-smrtdev-inner {
+    display: table-row;
+}
+.sk-smrtdev-row {
+    display: table-row;
+}
+.sk-smrtdev-one {
+    border-right: 1px dashed #d6d6d6;
+    box-sizing: border-box;
+    display: table-cell;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 50%;
+}
+.sk-smrtdev-rytdes:last-child {
+    margin: 0;
+}
+.sk-smrtdev-rytdes {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+.sk-desc-level2 .sk-smrtdev-rytdes img {
+    float: none !important;
+}
+.sk-smrtdev-rytdes img {
+    width: 7%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.incubate h1, .sk-smrtdev-rytdes h1 {
+    font-size: 30px !important;
+    font-weight: 200;
+    /* text-transform: uppercase; */
+}
+.field-item p, .sk-smrtdev-rytdes p {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+/*  li css */
+.sk-smrtdev-rytdes ul {
+    padding: 0px;
+    margin: 0;
+}
+.node-type-l2-page .sk-smrtdev-rytdes ul li {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    list-style: outside none none;
+    margin: 0 0 8px;
+}
+.sk-smrtdev-rytdes ul li {
+    margin-bottom: 5px;
+}
+.sk-smrtdev-rytdes li {
+    font-family: poppins;
+    font-family: poppins;
+    display: block;
+    line-height: 32px;
+    font-size: 14px;
+}
+.sk-smrtdev-rytdes li:before, .ui-tabs-panel li:before, .resp-tab-content li:before {
+    letter-spacing: 5px;
+    right: 45%;
+    content: "\f0da";
+    font-family: 'FontAwesome';
+    bottom: -6px;
+    font-size: 18px;
+    color: #37005F;
+    padding-right: 14px;
+}
+/* end li css */
+
+.sk-smrtdev-one:nth-of-type(2) {
+    border-right: 0;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.sk-smrtdev-one {
+    border-right: 1px dashed #d6d6d6;
+    box-sizing: border-box;
+    display: table-cell;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 50%;
+}
+.btn-remove{
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    background: #f04835;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    width: inherit;
+    margin: 6px 4px 4px 4px;
+    width: 62px;
+    height: 30px;
+}
+.btn-add{
+    height: 24px;
+    width:62px;
+}
+.hbspt-form select {
+    border: 1px solid #f0f0f0;
+    font-size: 16px;
+    color: #505050;
+    font-weight: 300;
+    font-family: inherit;
+    outline: none;
+    padding: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #f8f8f8;
+}
+
+.input label{
+    font-size: 12px;
+    color: #d60808;
+}

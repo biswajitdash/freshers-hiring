@@ -1,0 +1,236 @@
+.coumn-1-wrapper {
+    position: relative;
+}
+.sksocial {
+    background: #f04835;
+}
+
+carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.sksocial .sask-box-content {
+    padding: 0 100px;
+    margin: 0;
+}
+
+.sask-box-content {
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+.sask-box-content .sask-box-container {
+    padding: 0px !important;
+}
+.sask-box-content .sask-box-container {
+    text-align: center;
+    width: 20%;
+    float: left;
+    padding: 0 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.sksocial a {
+    display: block;
+    line-height: 50px;
+    border-right: 1px solid #892f29;
+}
+a {
+    color: #37005F;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+a {
+    outline: none;
+}
+.sksocial i {
+    color: #fff;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* footer css */
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.not-front .sk-footer {
+    padding: 19px 0 17px 0;
+}
+.fot_bg {
+    background: #000 url(../../../assets/images/fotter_img.jpg) no-repeat;
+    padding: 19px 0 17px 0;
+    background-size: cover;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.pull-left {
+    float: left!important;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-right {
+    text-align: right;
+}
+.righttxt {
+    text-align: right;
+}
+.pull-right {
+    float: right;
+}
+
+.fotlogo img {
+    margin-bottom: 45px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.fotlogo p {
+    color: #ababab;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.righttxt h3 {
+    color: #fff;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.fotli ul {
+    margin: 0px;
+    padding: 0px;
+}
+.fotli li {
+    color: #fff;
+    font-size: 12px;
+    margin: 8px 0px;
+    list-style-type: none;
+}
+.tb-megamenu {
+    position: relative;
+}
+.tb-megamenu .nav > li {
+    float: left;
+    margin-left: 0;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.fot_bg .tb-megamenu .nav > li > a {
+    font-weight: 400 !important;
+    cursor: pointer;
+}
+.tb-megamenu .nav > li > a {
+    text-transform: uppercase;
+}
+.tb-megamenu .nav > li > a {
+    font-weight: 400 !important;
+    cursor: default;
+}
+.tb-megamenu .nav > li > a {
+    border-top: 0;
+    color: #000;
+    font-weight: bold;
+    text-shadow: none;
+}
+.tb-megamenu .nav > li > a {
+    display: block;
+}
+.tb-megamenu .nav > li > a {
+    display: block;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.fottmen li a {
+    color: #ccc !important;
+    padding: 0px !important;
+    font-size: 13px !important;
+    margin-right: 25px !important;
+}
+a {
+    color: #37005F;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+a {
+    outline: none;
+}
+.sk-ftrcpryt {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 25px 0 0 0;
+    padding: 0;
+}
+.sk-ftrcpryt a {
+    color: #777;
+}
+.fa[_ngcontent-bhq-c2] {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fotlin {
+    border-top: 1px solid #444;
+    width: 100%;
+    margin: 40px 0px;
+}
