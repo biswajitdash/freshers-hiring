@@ -1,0 +1,35 @@
+1. Download and Install nodejs
+   https://nodejs.org/en/#download
+
+2. npm install -g @angular/cli@7.3.9
+
+3. Install other below dependencies
+
+npm install @angular/animations@7.2.10
+npm install @angular/cdk@7.3.1
+npm install @angular/material@7.3.7
+
+npm install bootstrap --save
+Now, include the bootstrap 4 inside the angular.json file inside styles array.
+"./node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "src/styles.css"
+
+
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.13.9
+@angular-devkit/build-angular     0.13.9
+@angular-devkit/build-optimizer   0.13.9
+@angular-devkit/build-webpack     0.13.9
+@angular-devkit/core              7.3.9
+@angular-devkit/schematics        7.3.9
+@angular/animations               7.2.10
+@angular/cdk                      7.3.1
+@angular/cli                      7.3.9
+@angular/material                 7.3.7
+@ngtools/webpack                  7.3.9
+@schematics/angular               7.3.9
+@schematics/update                0.13.9
+rxjs                              6.3.3
+typescript                        3.2.4
+webpack                           4.29.0
